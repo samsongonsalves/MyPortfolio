@@ -1,0 +1,155 @@
+@media (max-width:480px) {
+    #header_button_hire{
+        margin-bottom:3vw;
+    }
+    #header_button_print{
+        margin-bottom: 3vw;
+    }
+    #about_button{
+        width: 100%;
+        
+    }
+    #card-group{
+        display: block;
+        margin-left: 0vw;
+        margin-right: 0vw;
+    }
+    .group1{
+        width: 90%;
+        margin-left: 5vw;
+        margin-right: 5vw;
+        margin-bottom: 2vw;
+    }
+    .group2{
+        width: 90%;
+        margin-left: 5vw;
+        margin-right: 5vw;
+        margin-bottom: 2vw;
+    }
+    .group3{
+        width: 90%;
+        margin-left: 5vw;
+        margin-right: 5vw;
+    }
+    .resume_container{
+        display: block;
+    }
+    .resume_main{
+        display: block;
+    }
+    #card_education{
+        width: 90%;
+        margin-left: 5vw;
+        margin-right: 5vw;
+        margin-bottom: 2vw;
+    }
+    #card_expertise{
+        width: 90%;
+        margin-left: 5vw;
+        margin-right: 5vw;
+        margin-top: 2vw;
+    }
+    #card_skills{
+        width: 90%;
+        margin-left: 5vw;
+        margin-right: 5vw;
+        margin-top: 2vw;
+        margin-bottom: 2vw;
+    }
+    .cards_skill_name div{
+        margin-top: 2vw;
+        margin-bottom: 3.2vw;
+    }
+    .progress{
+        width: 50vw;
+        height: 0.1em;
+    }
+    .progress_bar{
+        display:inline;
+
+    }
+    .cards_skill_name{
+        margin-right: 1vw;
+        color:rgb(255, 106, 0);
+        font-weight: bolder;
+        font-size: 4vw;
+    }
+    .mobile_navi{
+        display: none;
+    }
+    .mobile_items{
+        text-align: center;
+        padding-bottom: 3vw;
+    }
+    .mobile_items li{
+        list-style-type: none;
+        text-align: center;
+        padding-bottom: 0vw;
+    }
+    .mobile_items li a{
+        text-decoration: none;
+        color: white;
+        letter-spacing: 0.3vw;
+        font-size: 2vw;
+    }
+    .navi{
+        display: none;
+    }
+    .hamburger{
+        position: relative;
+        left: 92vw;
+        top: 0.5vw;
+    }
+    .hamburger ion-icon{
+        font-size: 5vw;
+        color: yellow;
+    }
+    .mobile_menu{
+        background-image: radial-gradient(rgb(0, 30, 255),rgb(0, 140, 255),rgb(72, 240, 255));
+        box-shadow: 0vw 0.5vw 0.5vw 0vw rgba(131, 131, 131, 0.527);
+        border-radius: 1vw;
+        z-index: 1;
+        display: block;
+        transition: all 1s;
+    }
+    .stick{
+        position: sticky;
+        top:0vw;
+        width:100%;
+    }
+    .mobile_items li:active{
+        border:1px solid white;
+        fill: grey;
+    }
+    .cards_skill_name div{
+        font-size: 1.7vw;
+    }
+    .card_services{
+        display: block;
+    }
+    #web_designing{
+        width: 100%;
+        margin-bottom: 2vw;
+    }
+    #web_development{
+        width: 100%;
+        margin-top: 2vw;
+        margin-bottom: 2vw;
+        margin-left: -0.2vw;
+    }
+    #freelance{
+        width: 100%;
+        margin-top: 2vw;
+        margin-bottom: 2vw;
+        margin-left: -0.2vw;
+    }
+    #project_content{
+        height: auto;
+    }
+    .contact_form_image{
+        height: 55vw;
+    }
+    .contact2{
+        height: 41vw;
+    }
+}

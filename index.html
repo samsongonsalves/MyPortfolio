@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="./Assets/main.css">
+    <link rel="stylesheet" href="./Assets/mobile.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+</head>
+<body>
+  <div class="background_picture" id="background_picture">
+    <div class="logos">
+      <a href="#"><ion-icon name="logo-facebook" role="img" aria-label="logo facebook"></ion-icon></a>
+      <a href="#"><ion-icon name="logo-instagram" role="img" aria-label="logo instagram"></ion-icon></a>
+      <a href="#"><ion-icon name="logo-twitter" role="img" aria-label="logo twitter"></ion-icon></a>
+      <a href="http://www.linkedin.com/in/samson-gonsalves" target="_blank"><ion-icon name="logo-linkedin" role="img" aria-label="logo linkedin"></ion-icon></a>
+    </div>
+    <header>
+      <h2 class="header_1">Hello, I am</h2>
+      <h1 class="header_2">Samson Gonsalves</h1>
+      <div class="header_3">
+        <marquee id="header_ani" direction="up" scrollamount="1" height="30vw">
+          <div class="item">FULL STACK DEVELOPER</div>
+          <div class="item">FRONT END DEVELOPER</div>
+          <div class="item">STUDENT</div>
+        </marquee>
+      </div>
+    </header>
+    <button class="btn btn-info"  style="--bs-btn-padding-y: .25vw; --bs-btn-padding-x: .5vw; --bs-btn-font-size: 0.75vw;" id="header_button_print" type="submit">
+      <ion-icon class="button_img" name="print-outline"></ion-icon>
+      <span class="button_font_print">Print Resume</span></button>
+    <button class="btn btn-info" style="--bs-btn-padding-y: .25vw; --bs-btn-padding-x: .5vw; --bs-btn-font-size: .75vw;" id="header_button_hire" type="submit">Hire Me</button>
+  </div>
+  <div class="mobile_menu" id="mobile_menu" >
+    <div class="hamburger"  id="hamburger"><ion-icon name="menu-outline"></ion-icon></div>
+    <div class="mobile_navi" id="mobile_navi" >
+      <ul class="mobile_items">
+        <li><a href="#background_picture">HOME</a></li>
+        <li><a href="#About_Me">ABOUT</a></li>
+        <li><a href="#My_Resume">RESUME</a></li>
+        <li><a href="#projects">PROJECT</a></li>
+        <li><a href="#services">SERVICES</a></li>
+        <li><a href="#contact_header">CONTACT</a></li>
+      </ul>
+    </div>
+  </div>
+  <nav class="navi" id="navi">
+      <div class="div_nav" id="div_nav">
+        <ul class="left_nav">
+          <li class="navli"><a id="a1" href="#background_picture">Home</a></li>
+          <li class="navli"><a id="a2" href="#About_Me">About</a></li>
+          <li class="navli"><a id="a3" href="#My_Resume">Resume</a></li>
+        </ul>
+        <div id="center">
+          <img class="center_nav" id="center_nav" src="./Images/Samson_Gonsalves_main_photo.jpeg" alt="...">
+          <div id="center_name">
+            <span id="center_name_1">Samson Gonsalves</span><br>
+            <span id="center_name_2">Web Designer | Developer</span>
+          </div>
+        </div>
+        <ul class="right_nav">
+          <li class="navli"><a id="a4" href="#projects">Project</a></li>
+          <li class="navli"><a id="a5" href="#services">Services</a></li>
+          <li class="navli"><a id="a6" href="#contact_header">Contact</a></li>
+        </ul>
+      </div>
+  </nav>
+    <div class="about_me" id="About_Me">About<span>Me</span></div>
+    <div class="" id="card-group">
+      <div class="card group1 p-1">
+        <div class="card-body">
+          <h3 class="card-title">Who am I ?</h3>
+          <div class="red_line"></div>
+          <h5 class="who">A Web Designer / Developer Located In Our Lovely Earth</h5>
+          <p class="card-text-a">I care deeply about creating world-class, useful,
+and beautiful products that help people and
+make a difference. I can be as involved in your
+project as you need me to be; from the seed of
+the idea, to sketches, design, system design,
+and even the front-end.</p>
+          <button class="btn btn-outline-info" id="about_button" type="submit">Download CV</button>
+        </div>
+      </div>
+      <div class="card group2 p-1">
+        <div class="card-body">
+          <h3 class="card-title">Personal Info</h3>
+          <div class="red_line"></div>
+          <div class="card-text-b">
+            <b class="m1">Birthdate:</b><span class="m1"> 25/06/2000</span><br><br>
+            <b class="m1">Email:</b><span class="m1"> samsongonsalves625@gmail.com</span><br><br>
+            <b class="m1">Phone:</b><span class="m1"> +91 8928694262</span><br><br>
+            <b class="m1">Skype:</b><span class="m1"> asyourwish</span><br><br>
+            <b class="m1">Address:</b><span class="m1"> Vijay Nagar, Marol Maroshi, Andheri East, Mumbai-400059</span><br><br>
+          </div>
+        </div>
+      </div>
+      <div class="card group3">
+        <div class="card-body">
+          <h3 class="card-title">My Expertise</h3>
+          <div class="red_line"></div>
+          <div class="expts-content">
+           <div>Front - End Developer</div>
+           <div>Full - Stack Developer</div>
+           <div>Web Development</div>
+           <div>Web Designing</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="resume_container">
+      <div style="margin-left: 3vw;" id="My_Resume"><span style="font-weight:bold;font-size: 3vw;">My</span> <span style="font-weight:bold; color: rgb(40, 221, 253) ;font-size: 3vw;">Resume</span></div>
+      <div class="resume_main">
+        <div class="card" id="card_education">
+          <div class="card-body">
+            <h3 class="card-title"><img style="height: 3vw;width: 3vw;margin-bottom: 0.5vw;" src="/Images/icons8-literature.gif" alt=""><span style="padding-top:1vw ;font-size: 2.5vw;">Education</span></h3>
+            <div class="red_line_short"></div>
+            <hr>
+            <h5 class="card_education_detail1">Graduation: <span class="card_education_detail2"> 2018 - 2022</span></h5>
+            <h6 class="card_education_detail3"><span class="card_education_detail3-1">Stream: </span> B.E. Eletronics and Telecommunication Engineering</h6>
+            <br>
+            <h6 class="card_education_detail4"><span class="card_education_detail4-1">University: </span> Xavier Institute of Engineering, Mumbai University</h6>
+          </div>
+        </div>
+        <div class="card" id="card_expertise">
+          <div class="card-body">
+            <h3 class="card-title"><img style="height: 3vw;width: 3vw;margin-bottom: 0.5vw;" src="/Images/icons8-critical-thinking.gif" alt=""><span style="padding-top:1vw ;font-size: 2.5vw;">Expertise</span></h3>
+            <div class="red_line_short"></div>
+            <hr>
+            <h5 class="expert-detail-head">Excellent Knowledge</h5>
+            <pre class="expert-text">Having good knowledge in the field of web
+development.
+Great IT Skills in:
+<span class="expert-detail-same">HTML 5</span>
+<span class="expert-detail-same">CSS 3</span>
+<span class="expert-detail-same">BootStrap 5</span>
+<span class="expert-detail-same">JavaScript</span>
+and many more.</pre>
+          </div>
+        </div>
+        <div class="card" id="card_skills">
+          <div class="card-body">
+            <h3 class="card-title"><img id="card_skills_img" src="/Images/icons8-developer.gif" alt=""><span style="padding-top:1vw ;font-size: 2.6vw;">Skills</span></h3>
+            <div class="red_line_short"></div>
+            <hr>
+            <div style="display:flex;">
+              <div class="cards_skill_name">
+                <div>HTML5</div>
+                <div>CSS 3</div>
+                <div>Javascript</div>
+                <div>Bootstrap 5</div>
+              </div>
+              <div class="progress_bar">
+                <div class="progress">
+                  <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" role="progressbar" aria-label="Success striped example" style="width: 85%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                <div class="progress">
+                  <div class="progress-bar progress-bar-striped progress-bar-animated bg-info" role="progressbar" aria-label="Info striped example" style="width: 75%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                <div class="progress">
+                  <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning" role="progressbar" aria-label="Warning striped example" style="width: 50%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                <div class="progress">
+                  <div class="progress-bar progress-bar-striped progress-bar-animated bg-danger" role="progressbar" aria-label="Danger striped example" style="width: 50%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="portpro">
+      <div id="projects">My <span style="color:rgb(40, 221, 253)">Projects</span></div>
+      <div class="card" id="project_content">
+        <div class="card-body">
+          <h5 class="card-title" id="project_title"><img src="./Images/icons8-list.gif" alt="">Projects</h5>
+          <div class="red_line_short"></div>
+          <hr>
+          <div class="card-text" id="project_body">List Of Projects Created By Me:
+            <div> </div>
+            <ul>
+              <li style="list-style-type:none ;">⮚ My Portfolio</li>
+              <li style="list-style-type:none ;">⮚ AllStart Website</li>
+            </ul>
+          </div>
+          <a href="#" class="btn btn-primary" id="project_button">View Projects Created By Me</a>
+        </div>
+      </div>
+      <!-- <div class="card" style="width: 18rem;">
+        <img src="..." class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div> -->
+      </div>
+    </div>
+    <div id="services"><span style="font-weight:bold;font-size: 3vw;">My</span> <span style="font-weight:bold; color:rgb(40, 221, 253); font-size: 3vw;">Services</span></div>
+    <div class="card_services">
+      <div class="card" id="web_designing">
+        <div class="card-body">
+          <h3 class="card-title"><img style="height: 3vw;width: 3vw;margin-bottom: 0.5vw;" src="/Images/icons8-design.gif" alt=""><span style="padding-top:1vw ;font-size: 2.5vw;">Web Designing</span></h3>
+          <div class="red_line_short_down"></div>
+          <hr>
+          <p class="card-text web_design_text">Web designing is the creation of websites and pages to reflect a company’s brand and information and ensure a user-friendly experience. You can learn web designing to create a site for your own business or become a professional web designer creating sites for clients.</p>
+        </div>
+      </div>
+      <div class="card" id="web_development">
+        <div class="card-body">
+          <h3 class="card-title"><img style="height: 3vw;width: 3vw;margin-bottom: 0.5vw;" src="/Images/icons8-combo-chart.gif" alt=""><span style="padding-top:1vw ;font-size: 2.5vw;">Web Development</span></h3>
+          <div class="red_line_short_down"></div>
+          <hr>
+          <p class="card-text web_design_text">Web development refers to the building, creating, and maintaining of websites. It includes aspects such as web design, web publishing, web programming, and database management. It is the creation of an application that works over the internet i.e. websites.</p>
+        </div>
+      </div>
+      <div class="card" id="freelance" >
+        <div class="card-body">
+          <h3 class="card-title"><img style="height: 3vw;width: 3vw;margin-bottom: 0.5vw;" src="/Images/icons8-male-user.gif" alt=""><span style="padding-top:1vw ;font-size: 2.5vw;">FreeLance</span></h3>
+          <div class="red_line_short_down"></div>
+          <hr>
+          <p class="card-text web_design_text">Freelancing is a type of self-employment. Instead of being employed by a company, freelancers tend to work as self-employed, delivering their services on a contract or project basis.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="available_free" id="freelance12">
+      <div>I Am Available For FreeLance</div><br>
+      <button class="btn btn-info" id="freelance_button1" type="submit">Hire Me</button>
+    </div>
+
+    <div class="contact_form_image" id="contact_form_image">
+      <div class="contact_form_align">
+        <h1 id="contact_header">Contact <span>Form</span></h1>
+        <form action="" class="contact_form">
+          <h2>Send a message</h2>
+          <div class="red_line_short_form"></div>
+          <input type="text" placeholder="Name*" class="inp1"><br>
+          <input type="email" placeholder="Email*" class="inp2"><br>
+          <textarea name="" id="" rows="5" class="inp3" placeholder="Enter Your Message"></textarea><br>
+          <button class="btn btn-info" id="form_button" type="submit">Send Message</button>
+        </form>
+        <div class="contact2">
+          <h2 class="contact2_1">Get in touch</h2>
+          <div class="red_line_short_form"></div>
+          <div style="margin-top: 1vw;"><img src="./Images/icons8-phone-64.png" alt=""> Phone: <div style="font-size:1.4vw;">+91 8928694262</div></div>
+          <div style="padding-top:1vw;"><img src="./Images/icons8-address-50.png" alt=""> Address: <div style="font-size:1.4vw;">Vijay Nagar, Marol Maroshi, Andheri East, Mumbai-400059.</div></div>
+          <div style="margin-top: 1vw;"><img src="./Images/icons8-mail-30.png" alt=""> Email: <div style="font-size:1.4vw;">samsongonsalves625@gmail.com</div></div>
+        </div>
+      </div>
+    </div>   
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
+<script src="./Javascript/main.js"></script>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule="" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js" integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous"></script>
+    
+
+</body>
+</html>
